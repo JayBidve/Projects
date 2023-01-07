@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body bgcolor="cyan">
+    <h2> lets learn HTML</h2>
+    <form action="jay.php">
+    Name: <input type="text">
+    class: <input type="text">
+    <!-- here name and class will appear in same line we can create new line by <br> but we will use div tag -->
+    <div>
+        Name: <input type="text">
+    </div>
+    <div>
+        class :  <input type="text">
+    </div>
+    <!-- but by using this one we will get in new line -->
+    <div>
+        Name: <input type="text">
+    </div>
+    <br> 
+    <!-- by <br> nothing will happen only one line space will be increase  -->
+
+    <div>
+        class :  <input type="text">
+    </div>
+    <!-- same if we write <hr> instead of <br> we will get a line  -->
+    <div>
+        <!-- and for email use this one  -->
+        email:  <input type="email" name="My Email">
+    </div>
+    <br>
+    <hr>
+    <div>
+ <!-- as we are creating form we have to submit it so use this -->
+        <input type="submit" value="sex">
+    </div>
+    <div>
+        <!-- to create date use this one it will be easeir -->
+      Date:  <input type="date" name="id=">
+    </div>
+    <br>
+    <hr>
+    <div>
+
+      bonus:  <input type="number" name="my bonus">
+      <!-- here not a single word can be used cuz its type is number -->
+      <!-- yes but if you want 1oo or greater number then write e it will represent power eg. 6e means 6 raise to 100 -->
+    </div> 
+    <div> 
+        <!-- for checkbox use this one  -->
+        Are you eligible? : <input type="checkbox" name="my eligibility ">
+
+    </div> 
+    <div>
+        <!-- same for selecting gender  -->
+        Gender : Male <input type="radio"name="mygender">
+        Female <input type="radio" name="mygender">
+        other<input type="radio" name="mygender">
+    </div>
+    <!-- more than note book you can learn from code -->
+  <div>
+     <input type="reset" value="reset now">
+     <!-- as we done submit now here reset now will reset entire form  -->
+    </div>
+    <div>
+        <!-- lets see text area attribute -->
+        Write about yourself = <textarea name="my text"  cols="30" rows="10"></textarea>
+    </div> 
+    
+</form>
+</body>
+</html>
